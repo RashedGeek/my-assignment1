@@ -21,3 +21,50 @@ button{
     border: none;
     padding: 12px 16px;
 }
+section{
+    text-align: center;
+    padding: 80px 20px;
+}
+section span{
+    color: #308868;
+}
+section p{
+    color: #FFFFFF;
+}
+section h1{
+    font-size: 50px;
+}
+.hero{
+    background-image: url(./assets/hero-bg.png);
+}
+
+.note-section{
+    padding: 80px 24px;
+    text-align: center
+}
+
+note-cards{
+    background: ;
+}
+
+.note-section p{
+    color: #627382;
+}
+.note-cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.card{
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 18px;
+    
+}
+.card img{
+    background-color: #f95555;
+    width: 45px;
+    height: 45px;
+    border-radius: 32px 32px;
+}
