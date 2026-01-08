@@ -68,3 +68,20 @@ note-cards{
     height: 45px;
     border-radius: 32px 32px;
 }
+.brain-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.brain-container p{
+    color: #627382;
+    
+}
+.brain-text li{
+    list-style: none;
+    text-align: left;
+}
+.brain-container{
+    text-align: left;
+}
