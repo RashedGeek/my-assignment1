@@ -20,6 +20,7 @@ button{
     color: white;
     border: none;
     padding: 12px 16px;
+    border-radius: 5px;
 }
 section{
     text-align: center;
@@ -27,6 +28,9 @@ section{
 }
 section span{
     color: #308868;
+}
+.hero h1{
+    color: #ffffff;
 }
 section p{
     color: #FFFFFF;
@@ -84,4 +88,62 @@ note-cards{
 }
 .brain-container{
     text-align: left;
+}
+.early-access-container p{
+    color: #627382;
+
+}
+.early-access{
+    /* background-color: #f7f6f2; */
+    padding: 80px 20px;
+    text-align: center;
+}
+.early-access h2{
+    font-size: 40px;
+    font-style: bold;
+}
+
+.early-access-container{
+    background-color: #f7f6f2;
+    border: 1px solid #f7f6f2;
+    padding: 30px 40px;
+    /* text-align: center; */
+    border-radius: 10px;
+    max-width: 1360px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer{
+    background-color: rgba(14, 14, 50, 0.955);
+    padding: 60px 20px 30px;
+    color: #f7f6f2;
+    
+}
+.footer-container{
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    align-items: center;
+}
+.footer img{
+    width: 120px;
+    margin-bottom: 15px;
+
+}
+.footer1{
+    max-width: 300px;
+    font-size: 15px;
+}
+.footer-bottom{
+    text-align: center;
+    color: #fafafa;
+    font-weight: bold;
+    border-top: 1px solid #fafafa;
+    text-align: center;
+     margin-top: 20px; 
+     padding-top: 15px;
+    margin: 0 auto;
 }
